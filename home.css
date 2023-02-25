@@ -1,17 +1,21 @@
 .container-fluid {
   padding: 0;
   margin: 0;
-  background: url(./pictures/background.jpg) left top no-repeat,
-    url(./pictures/cool.jpg) right bottom no-repeat, url(./pictures/received.jpeg) left top repeat;
+  background: url(./pictures/received.jpeg) left top no-repeat,
+    url(./pictures/cool.jpg) right bottom no-repeat,
+     url(./pictures/back1.jpg) left top repeat;
     padding: 15px;
     background-size: 150px, 130px, auto;
+    justify-content: center;
+   
+
 }
 h1,
 h3,
 h5,
 .card-title,
 .card-text {
-  color: rgb(9, 175, 246);
+  color: rgb(32, 39, 245);
 }
 button {
   background-color: #61dafb;
@@ -31,16 +35,18 @@ button:hover {
   border: 1px solid #0a54e8;
 }
 nav {
-  background-color: #959d9f;
+ background-image: url(./pictures/back4.jpg);
   color: #0a54e8;
   border: 1px solid #61dafb;
   border-radius: 5px;
   padding: 10px 20px;
   margin: 10px;
   transition: all 0.3s ease-in-out;
+  justify-content: center;
+  align-items: center;
 }
 .btn-group-vertical {
-  padding-top: 125px;
+  padding-top: 200px;
   display: inline-block;
   margin: 10px 10px;
 }
@@ -54,5 +60,11 @@ button {
   font-size: 1.2rem;
   cursor: pointer;
   width: 130px;
+  transition: all 0.3s ease-in-out;
+}
+.col-sm-6{
+  background-color: #959d9f;
+}
+.card {
   transition: all 0.3s ease-in-out;
 }
