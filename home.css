@@ -1,70 +1,19 @@
-.container-fluid {
-  padding: 0;
-  margin: 0;
-  background: url(./pictures/received.jpeg) left top no-repeat,
-    url(./pictures/cool.jpg) right bottom no-repeat,
-     url(./pictures/back1.jpg) left top repeat;
-    padding: 15px;
-    background-size: 150px, 130px, auto;
-    justify-content: center;
-   
-
+.parent {
+  padding: 10px;
+  border: 1px solid black;
 }
-h1,
-h3,
-h5,
-.card-title,
-.card-text {
-  color: rgb(32, 39, 245);
+.child1 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
 }
-button {
-  background-color: #61dafb;
-  color: #0a54e8;
-  border: 1px solid #61dafb;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  width: 130px;
-  transition: all 0.3s ease-in-out;
+.child2 {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
 }
-button:hover {
-  background-color: #0a54e8;
-  color: #61dafb;
-  border: 1px solid #0a54e8;
-}
-nav {
- background-image: url(./pictures/back4.jpg);
-  color: #0a54e8;
-  border: 1px solid #61dafb;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin: 10px;
-  transition: all 0.3s ease-in-out;
-  justify-content: center;
-  align-items: center;
-}
-.btn-group-vertical {
-  padding-top: 200px;
-  display: inline-block;
-  margin: 10px 10px;
-}
-button {
-  background-color: #61dafb;
-  color: #0a54e8;
-  border: 1px solid #61dafb;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin: 10px;
-  font-size: 1.2rem;
-  cursor: pointer;
-  width: 130px;
-  transition: all 0.3s ease-in-out;
-}
-.col-sm-6{
-  background-color: #959d9f;
-}
-.card {
-  transition: all 0.3s ease-in-out;
+.child3 {
+background-color: green;
+  width: 100px;
+  height: 100px;
 }
